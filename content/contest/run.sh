@@ -8,6 +8,4 @@ for i in *.in; do
     diff k ${i%.in}.[ao]??
 done
 echo PASS
-if [[ "$1" == "yolo" ]]; then
-    ../submit
-fi
+if [[ "$1" == "yolo" ]]; then ../submit; fi

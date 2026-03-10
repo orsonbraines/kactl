@@ -1,0 +1,3 @@
+- Enable Autosave
+- "Cpp Standard" to "gnu++23"
+- "Accept Suggestion on Enter" to "off"
